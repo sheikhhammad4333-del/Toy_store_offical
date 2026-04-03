@@ -1,0 +1,96 @@
+      body{
+        background-color: cadetblue;
+      }
+        .container-fluid{
+            background-color: purple;
+            margin-top: -8px;
+        }
+        .container-fluid a{
+          color: white;
+        }
+        .container-fluid a:hover{
+          color: wheat;
+        }
+         header{
+       position: sticky;
+       top: 0;
+       z-index: 1000;
+       box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+       }
+       .row a{
+          font-family: sans-serif;
+          text-decoration: none;
+        }
+        .navbar-brand{
+            display: flex;
+            margin-left: 50px;
+        }
+        .navbar-brand img{
+            width: 100px;
+            border-radius: 50%;
+        }
+        .navbar-brand h1{
+            font-size: 30px;
+            font-family: cursive;
+            margin-top: 30px;
+        }
+        #navbarSupportedContent{
+            font-family: sans-serif;
+            justify-content: space-evenly;
+            font-size: 20px;
+            font-weight: bolder;
+            color: white;
+        }
+        .caro img{
+            width: 100%;
+            height: 500px;
+        }
+                .cart-section {
+    width: 100%;
+    padding: 40px 0;
+    background: cadetblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.btn-return {
+    margin-top: 25px;
+    background: #ff8383;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: 700;
+    border: none;
+    text-decoration: none;
+    margin-left: 565px;
+}
+
+.btn-return:hover {
+    background: #ff6b6b;
+}
+
+    table {
+      width: 80%;
+      margin: 30px auto;
+      background: #fff;
+      border-collapse: collapse;
+    }
+    table, th, td {
+      border: 1px solid black;
+      padding: 10px;
+    }
+    img {
+      width: 80px;
+    }
+    .remove-btn {
+      background: red;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+    footer{
+      margin-top: 50px;
+    }

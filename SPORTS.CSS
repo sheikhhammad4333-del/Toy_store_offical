@@ -1,0 +1,119 @@
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.container-fluid {
+  background-color: purple;
+  margin-top: -8px;
+}
+
+.container-fluid a {
+  color: white;
+}
+
+.container-fluid a:hover {
+  color: wheat;
+}
+
+.navbar-brand {
+  display: flex;
+  margin-left: 50px;
+}
+
+.navbar-brand img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.navbar-brand h1 {
+  font-size: 30px;
+  font-family: cursive;
+  margin-top: 30px;
+}
+.card {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.06);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+}
+
+.card img {
+  transition: transform 0.5s ease;
+}
+
+.card:hover img {
+  transform: scale(1.15);
+}
+.parent {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: antiquewhite;
+}
+
+.child1 {
+  margin-left: -50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.child2 h1 {
+  color: brown;
+  margin-top: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.child2 h3 {
+  color: yellowgreen;
+}
+
+.child2 p {
+  color: lightseagreen;
+}
+.ins {
+  border: 1px solid green;
+  border-radius: 8px;
+  margin: 10px 30px 0 30px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(86, 86, 207, 0.6);
+  background-color: #fff;
+}
+.card {
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.06);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+}
+
+.card img {
+    transition: transform 0.5s ease;
+}
+
+.card:hover img {
+    transform: scale(1.15);
+}
+:root {
+    --primary-color: purple;
+    --secondary-color: wheat;
+    --card-shadow-color: rgba(0,0,0,0.25);
+}
+
+.container-fluid {
+    background-color: var(--primary-color);
+}
+
+.container-fluid a:hover {
+    color: var(--secondary-color);
+}
+
+.card:hover {
+    box-shadow: 0 12px 30px var(--card-shadow-color);
+}
